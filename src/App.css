@@ -14,12 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e1e8f8;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +31,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scrollbarclass {
+  overflow-y: scroll;
+  height: 650px;
+}
+
+.scrollbarclass::-webkit-scrollbar {
+  display: none;
 }
